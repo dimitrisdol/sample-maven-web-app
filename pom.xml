@@ -31,11 +31,11 @@
   <distributionManagement>
    <repository>
       <id>nexus</id>
-      <url>http://192.168.49.2:32001/repository/maven/</url>
+      <url>http://http://192.168.49.2:30786/repository/maven/</url>
    </repository>
    <snapshotRepository>
             <id>maven-snapshot</id>
-            <url>http://192.168.49.2:32001/snapshots/maven/</url>
+            <url>http://http://192.168.49.2:30786/snapshots/maven/</url>
    </snapshotRepository>
   </distributionManagement>
 
@@ -90,7 +90,7 @@
    	   </executions>
    	   <configuration>
       		<serverId>nexus</serverId>
-      		<nexusUrl>http://192.168.49.2:32001</nexusUrl>
+      		<nexusUrl>http://http://192.168.49.2:30786</nexusUrl>
       		<skipStaging>true</skipStaging>
   	   </configuration>
 	</plugin>
