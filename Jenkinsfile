@@ -1,5 +1,5 @@
 def pipelineConfig=[
-  appName: 'sample-web-app',
+  appName: 'sample-maven-web-app',
   agentLabel: 'jenkins-maven-dind'
 ]
 commonLib_runMavenPipeline(pipelineConfig)
