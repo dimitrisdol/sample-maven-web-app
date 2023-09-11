@@ -90,7 +90,7 @@
    	   </executions>
    	   <configuration>
       		<serverId>nexus</serverId>
-      		<nexusUrl>http://192.168.49.2:30786</nexusUrl>
+      		<nexusUrl>http://192.168.49.2:32002</nexusUrl>
       		<skipStaging>true</skipStaging>
   	   </configuration>
 	</plugin>
