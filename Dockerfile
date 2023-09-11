@@ -4,5 +4,5 @@ COPY pom.xml  .
 RUN mvn clean package
 
 FROM tomcat:9.0.48-jdk11-openjdk-slim
-COPY --from=build target/sample-web-app.war /usr/local/tomcat/webapps/sample-web-app.war
+COPY --from=build target/sample-maven-web-app.war /usr/local/tomcat/webapps/sample-maven-web-app.war
 EXPOSE 8080
